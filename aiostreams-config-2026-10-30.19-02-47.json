@@ -1,0 +1,1599 @@
+{
+  "services": [
+    {
+      "id": "torbox",
+      "enabled": true,
+      "credentials": {
+        "apiKey": "2c995d7d-a93c-4cee-b298-17feec438d06"
+      }
+    },
+    {
+      "id": "realdebrid",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "alldebrid",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "premiumize",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "debridlink",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "stremio_nntp",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "nzbdav",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "aiostreams",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "altmount",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "offcloud",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "putio",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "easynews",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "easydebrid",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "debrider",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "pikpak",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "seedr",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "stremthru_newz",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "torrin",
+      "enabled": false,
+      "credentials": {}
+    }
+  ],
+  "presets": [
+    {
+      "type": "custom",
+      "instanceId": "40f",
+      "enabled": true,
+      "options": {
+        "name": "PencariMovie",
+        "manifestUrl": "https://stream.pencarimovie.com/66ff097863dedb7ccd8401d5ffe616f3/manifest.json",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": [],
+        "libraryAddon": false,
+        "resultPassthrough": false
+      }
+    },
+    {
+      "type": "torrentio",
+      "instanceId": "db6",
+      "enabled": true,
+      "options": {
+        "name": "Torrentio",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": [],
+        "useMultipleInstances": false
+      }
+    },
+    {
+      "type": "comet",
+      "instanceId": "b65",
+      "enabled": true,
+      "options": {
+        "name": "Comet",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ],
+        "includeP2P": false,
+        "removeTrash": false,
+        "scrapeDebridAccountTorrents": false,
+        "useMultipleInstances": false,
+        "mediaTypes": []
+      }
+    },
+    {
+      "type": "meteor",
+      "instanceId": "719",
+      "enabled": true,
+      "options": {
+        "name": "Meteor",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": [],
+        "includeP2P": false,
+        "removeTrash": false,
+        "useMultipleInstances": false
+      }
+    },
+    {
+      "type": "mediafusion",
+      "instanceId": "2d5",
+      "enabled": true,
+      "options": {
+        "name": "MediaFusion",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": [],
+        "useCachedResultsOnly": false,
+        "enableWatchlistCatalogs": false,
+        "includeP2P": false,
+        "useMultipleInstances": false
+      }
+    },
+    {
+      "type": "stremthruTorz",
+      "instanceId": "a61",
+      "enabled": true,
+      "options": {
+        "name": "StremThru Torz",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": [],
+        "includeP2P": false,
+        "useMultipleInstances": false
+      }
+    },
+    {
+      "type": "opensubtitles",
+      "instanceId": "806",
+      "enabled": true,
+      "options": {
+        "name": "OpenSubtitles",
+        "timeout": 30000,
+        "resources": [
+          "subtitles"
+        ]
+      }
+    },
+    {
+      "type": "custom",
+      "instanceId": "686",
+      "enabled": true,
+      "options": {
+        "name": "AIOMetadata  | ElfHosted",
+        "manifestUrl": "https://aiometadata.elfhosted.com/stremio/de8d45ab-880e-498e-baba-109f8e3b5ec8/manifest.json",
+        "timeout": 30000,
+        "mediaTypes": [],
+        "libraryAddon": false,
+        "resultPassthrough": false
+      }
+    }
+  ],
+  "formatter": {
+    "id": "torbox"
+  },
+  "preferredQualities": [
+    "BluRay REMUX",
+    "BluRay",
+    "WEB-DL",
+    "WEBRip",
+    "HDRip",
+    "HC HD-Rip",
+    "DVD REMUX",
+    "DVDRip",
+    "HDTV",
+    "CAM",
+    "TS",
+    "TC",
+    "SCR",
+    "Unknown"
+  ],
+  "preferredResolutions": [
+    "2160p",
+    "1440p",
+    "1080p",
+    "720p",
+    "576p",
+    "480p",
+    "360p",
+    "240p",
+    "144p",
+    "Unknown"
+  ],
+  "excludedQualities": [
+    "CAM",
+    "SCR",
+    "TS",
+    "TC"
+  ],
+  "excludedVisualTags": [
+    "3D"
+  ],
+  "sortCriteria": {
+    "global": [
+      {
+        "key": "cached",
+        "direction": "desc"
+      },
+      {
+        "key": "library",
+        "direction": "desc"
+      },
+      {
+        "key": "resolution",
+        "direction": "desc"
+      },
+      {
+        "key": "quality",
+        "direction": "desc"
+      },
+      {
+        "key": "streamExpressionScore",
+        "direction": "desc"
+      },
+      {
+        "key": "regexPatterns",
+        "direction": "desc"
+      },
+      {
+        "key": "streamType",
+        "direction": "desc"
+      },
+      {
+        "key": "visualTag",
+        "direction": "desc"
+      },
+      {
+        "key": "audioTag",
+        "direction": "desc"
+      },
+      {
+        "key": "audioChannel",
+        "direction": "desc"
+      },
+      {
+        "key": "encode",
+        "direction": "desc"
+      },
+      {
+        "key": "language",
+        "direction": "desc"
+      },
+      {
+        "key": "subtitle",
+        "direction": "desc"
+      },
+      {
+        "key": "size",
+        "direction": "desc"
+      }
+    ]
+  },
+  "posterService": "rpdb",
+  "deduplicator": {
+    "enabled": true,
+    "keys": [
+      "filename",
+      "infoHash"
+    ],
+    "multiGroupBehaviour": "aggressive",
+    "cached": "single_result",
+    "uncached": "per_service",
+    "p2p": "single_result",
+    "http": "disabled",
+    "live": "disabled",
+    "youtube": "disabled",
+    "external": "disabled",
+    "smartDetectAttributes": [
+      "size",
+      "resolution",
+      "quality",
+      "visualTags",
+      "audioTags",
+      "audioChannels",
+      "languages",
+      "encode",
+      "edition",
+      "network",
+      "remastered",
+      "releaseGroup"
+    ],
+    "smartDetectRounding": 10,
+    "libraryBehaviour": "ignore"
+  },
+  "autoPlay": {
+    "enabled": true,
+    "method": "matchingFile",
+    "attributes": [
+      "resolution",
+      "quality",
+      "releaseGroup"
+    ]
+  },
+  "cacheAndPlay": {
+    "enabled": false,
+    "streamTypes": [
+      "usenet"
+    ]
+  },
+  "statistics": {
+    "enabled": false,
+    "position": "bottom",
+    "statsToShow": [
+      "addon",
+      "filter",
+      "timing"
+    ],
+    "showFilterStatsOnNoStreams": true
+  },
+  "digitalReleaseFilter": {
+    "enabled": false,
+    "tolerance": 0,
+    "requestTypes": [],
+    "addons": [],
+    "showInfoOnFilter": true
+  },
+  "ageRangeTypes": [
+    "usenet"
+  ],
+  "seasonEpisodeMatching": {
+    "addons": [],
+    "requestTypes": []
+  },
+  "episodeTitleMatching": {
+    "addons": [],
+    "requestTypes": []
+  },
+  "languageInference": {
+    "enabled": true,
+    "sources": []
+  },
+  "yearMatching": {
+    "addons": [],
+    "requestTypes": []
+  },
+  "titleMatching": {
+    "addons": [],
+    "requestTypes": []
+  },
+  "precacheNextEpisode": false,
+  "precacheSingleStream": true,
+  "precacheSelector": "count(cached(streams)) == 0 ? uncached(streams) : []",
+  "enableSeadex": true,
+  "regexOverrides": [],
+  "checkOwned": true,
+  "proxy": {
+    "id": "mediaflow",
+    "proxiedServices": []
+  },
+  "catalogModifications": [
+    {
+      "id": "686e3b0.tmdb.top_movie",
+      "name": "Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": true,
+      "genreRequired": false,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.top_series",
+      "name": "Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": true,
+      "genreRequired": false,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.trending_movie",
+      "name": "Trending",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": true,
+      "genreRequired": false,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.trending_series",
+      "name": "Trending",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": true,
+      "genreRequired": false,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.top_rated_movie",
+      "name": "Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": true,
+      "genreRequired": false,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.top_rated_series",
+      "name": "Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": true,
+      "genreRequired": false,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.netflix.new",
+      "name": "Netflix · New Releases",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.netflix.new",
+      "name": "Netflix · New Releases",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.netflix.popular",
+      "name": "Netflix · Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.netflix.popular",
+      "name": "Netflix · Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.netflix.top-rated",
+      "name": "Netflix · Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.netflix.top-rated",
+      "name": "Netflix · Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.netflix-kids.new",
+      "name": "Netflix Kids · New Releases",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.netflix-kids.new",
+      "name": "Netflix Kids · New Releases",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.netflix-kids.popular",
+      "name": "Netflix Kids · Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.netflix-kids.popular",
+      "name": "Netflix Kids · Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.netflix-kids.top-rated",
+      "name": "Netflix Kids · Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.netflix-kids.top-rated",
+      "name": "Netflix Kids · Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.disney-plus.new",
+      "name": "Disney+ · New Releases",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.disney-plus.new",
+      "name": "Disney+ · New Releases",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.disney-plus.popular",
+      "name": "Disney+ · Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.disney-plus.popular",
+      "name": "Disney+ · Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.disney-plus.top-rated",
+      "name": "Disney+ · Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.disney-plus.top-rated",
+      "name": "Disney+ · Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.prime-video.new",
+      "name": "Prime Video · New Releases",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.prime-video.new",
+      "name": "Prime Video · New Releases",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.prime-video.popular",
+      "name": "Prime Video · Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.prime-video.popular",
+      "name": "Prime Video · Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.prime-video.top-rated",
+      "name": "Prime Video · Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.prime-video.top-rated",
+      "name": "Prime Video · Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.hbo-max.new",
+      "name": "HBO Max · New Releases",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.hbo-max.new",
+      "name": "HBO Max · New Releases",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.hbo-max.popular",
+      "name": "HBO Max · Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.hbo-max.popular",
+      "name": "HBO Max · Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.hbo-max.top-rated",
+      "name": "HBO Max · Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.hbo-max.top-rated",
+      "name": "HBO Max · Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.apple-tv-plus.new",
+      "name": "Apple TV+ · New Releases",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.apple-tv-plus.new",
+      "name": "Apple TV+ · New Releases",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.apple-tv-plus.popular",
+      "name": "Apple TV+ · Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.apple-tv-plus.popular",
+      "name": "Apple TV+ · Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.apple-tv-plus.top-rated",
+      "name": "Apple TV+ · Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.apple-tv-plus.top-rated",
+      "name": "Apple TV+ · Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.crunchyroll.new",
+      "name": "Crunchyroll · New Releases",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.crunchyroll.new",
+      "name": "Crunchyroll · New Releases",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.crunchyroll.popular",
+      "name": "Crunchyroll · Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.crunchyroll.popular",
+      "name": "Crunchyroll · Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.crunchyroll.top-rated",
+      "name": "Crunchyroll · Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.crunchyroll.top-rated",
+      "name": "Crunchyroll · Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.mubi.new",
+      "name": "MUBI · New Releases",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.mubi.new",
+      "name": "MUBI · New Releases",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.mubi.popular",
+      "name": "MUBI · Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.mubi.popular",
+      "name": "MUBI · Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.mubi.top-rated",
+      "name": "MUBI · Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.mubi.top-rated",
+      "name": "MUBI · Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.paramount-plus.new",
+      "name": "Paramount+ · New Releases",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.paramount-plus.new",
+      "name": "Paramount+ · New Releases",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.paramount-plus.popular",
+      "name": "Paramount+ · Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.paramount-plus.popular",
+      "name": "Paramount+ · Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.paramount-plus.top-rated",
+      "name": "Paramount+ · Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.paramount-plus.top-rated",
+      "name": "Paramount+ · Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.hulu.new",
+      "name": "Hulu · New Releases",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.hulu.new",
+      "name": "Hulu · New Releases",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.hulu.popular",
+      "name": "Hulu · Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.hulu.popular",
+      "name": "Hulu · Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.hulu.top-rated",
+      "name": "Hulu · Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.hulu.top-rated",
+      "name": "Hulu · Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.peacock-premium.new",
+      "name": "Peacock Premium · New Releases",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.peacock-premium.new",
+      "name": "Peacock Premium · New Releases",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.peacock-premium.popular",
+      "name": "Peacock Premium · Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.peacock-premium.popular",
+      "name": "Peacock Premium · Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.peacock-premium.top-rated",
+      "name": "Peacock Premium · Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.peacock-premium.top-rated",
+      "name": "Peacock Premium · Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.discovery-plus.new",
+      "name": "Discovery+ · New Releases",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.discovery-plus.new",
+      "name": "Discovery+ · New Releases",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.discovery-plus.popular",
+      "name": "Discovery+ · Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.discovery-plus.popular",
+      "name": "Discovery+ · Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.discovery-plus.top-rated",
+      "name": "Discovery+ · Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.discovery-plus.top-rated",
+      "name": "Discovery+ · Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.starz.new",
+      "name": "Starz · New Releases",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.starz.new",
+      "name": "Starz · New Releases",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.starz.popular",
+      "name": "Starz · Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.starz.popular",
+      "name": "Starz · Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.starz.top-rated",
+      "name": "Starz · Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.starz.top-rated",
+      "name": "Starz · Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.hidive.new",
+      "name": "HIDIVE · New Releases",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.hidive.new",
+      "name": "HIDIVE · New Releases",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.hidive.popular",
+      "name": "HIDIVE · Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.hidive.popular",
+      "name": "HIDIVE · Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.movie.streaming.hidive.top-rated",
+      "name": "HIDIVE · Top Rated",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.tmdb.discover.series.streaming.hidive.top-rated",
+      "name": "HIDIVE · Top Rated",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": true,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.search.movie",
+      "name": "Movies Search",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": false,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.search.series",
+      "name": "Series Search",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": false,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.search.anime_series",
+      "name": "Anime Series Search",
+      "type": "anime.series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": false,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.search.anime_movie",
+      "name": "Anime Movies Search",
+      "type": "anime.movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": false,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.calendar-videos",
+      "name": "Calendar videos",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": false,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.aiom.similar",
+      "name": "More Like This",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": false,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    },
+    {
+      "id": "686e3b0.aiom.similar",
+      "name": "More Like This",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "genreRequired": false,
+      "searchable": false,
+      "addonName": "AIOMetadata  | ElfHosted"
+    }
+  ],
+  "preferredEncodes": [],
+  "preferredStreamTypes": [],
+  "preferredVisualTags": [],
+  "preferredAudioTags": [],
+  "resultLimits": {
+    "resolution": 1
+  },
+  "excludedResolutions": [],
+  "preferredLanguages": [
+    "English",
+    "Malay"
+  ],
+  "preferredSubtitles": [
+    "English",
+    "Malay"
+  ],
+  "includedLanguages": [],
+  "requiredLanguages": []
+}

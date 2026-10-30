@@ -1,0 +1,1616 @@
+[
+  {
+    "id": "collection-fix2-streaming-aiostreams-v3",
+    "title": "Streaming Platforms",
+    "folders": [
+      {
+        "id": "folder-fix2-netflix-aiostreams-v3",
+        "title": "Netflix",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.netflix.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.netflix.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.netflix.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.netflix.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.netflix.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.netflix.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.netflix.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.netflix.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.netflix.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.netflix.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.netflix.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.netflix.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-netflix-kids-aiostreams-v3",
+        "title": "Netflix Kids",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.netflix-kids.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.netflix-kids.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.netflix-kids.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.netflix-kids.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.netflix-kids.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.netflix-kids.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.netflix-kids.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.netflix-kids.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.netflix-kids.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.netflix-kids.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.netflix-kids.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.netflix-kids.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-disney-plus-aiostreams-v3",
+        "title": "Disney+",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.disney-plus.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.disney-plus.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.disney-plus.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.disney-plus.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.disney-plus.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.disney-plus.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.disney-plus.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.disney-plus.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.disney-plus.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.disney-plus.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.disney-plus.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.disney-plus.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-prime-video-aiostreams-v3",
+        "title": "Prime Video",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.prime-video.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.prime-video.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.prime-video.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.prime-video.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.prime-video.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.prime-video.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.prime-video.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.prime-video.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.prime-video.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.prime-video.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.prime-video.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.prime-video.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-hbo-max-aiostreams-v3",
+        "title": "HBO Max",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hbo-max.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hbo-max.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hbo-max.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hbo-max.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hbo-max.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hbo-max.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hbo-max.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hbo-max.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hbo-max.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hbo-max.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hbo-max.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hbo-max.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-apple-tv-plus-aiostreams-v3",
+        "title": "Apple TV+",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.apple-tv-plus.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.apple-tv-plus.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.apple-tv-plus.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.apple-tv-plus.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.apple-tv-plus.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.apple-tv-plus.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.apple-tv-plus.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.apple-tv-plus.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.apple-tv-plus.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.apple-tv-plus.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.apple-tv-plus.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.apple-tv-plus.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-crunchyroll-aiostreams-v3",
+        "title": "Crunchyroll",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.crunchyroll.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.crunchyroll.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.crunchyroll.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.crunchyroll.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.crunchyroll.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.crunchyroll.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.crunchyroll.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.crunchyroll.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.crunchyroll.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.crunchyroll.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.crunchyroll.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.crunchyroll.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-mubi-aiostreams-v3",
+        "title": "MUBI",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.mubi.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.mubi.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.mubi.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.mubi.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.mubi.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.mubi.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.mubi.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.mubi.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.mubi.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.mubi.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.mubi.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.mubi.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-paramount-plus-aiostreams-v3",
+        "title": "Paramount+",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.paramount-plus.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.paramount-plus.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.paramount-plus.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.paramount-plus.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.paramount-plus.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.paramount-plus.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.paramount-plus.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.paramount-plus.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.paramount-plus.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.paramount-plus.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.paramount-plus.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.paramount-plus.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-hulu-aiostreams-v3",
+        "title": "Hulu",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hulu.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hulu.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hulu.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hulu.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hulu.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hulu.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hulu.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hulu.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hulu.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hulu.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hulu.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hulu.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-peacock-premium-aiostreams-v3",
+        "title": "Peacock Premium",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.peacock-premium.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.peacock-premium.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.peacock-premium.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.peacock-premium.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.peacock-premium.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.peacock-premium.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.peacock-premium.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.peacock-premium.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.peacock-premium.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.peacock-premium.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.peacock-premium.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.peacock-premium.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-discovery-plus-aiostreams-v3",
+        "title": "Discovery+",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.discovery-plus.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.discovery-plus.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.discovery-plus.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.discovery-plus.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.discovery-plus.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.discovery-plus.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.discovery-plus.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.discovery-plus.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.discovery-plus.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.discovery-plus.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.discovery-plus.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.discovery-plus.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-starz-aiostreams-v3",
+        "title": "Starz",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.starz.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.starz.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.starz.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.starz.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.starz.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.starz.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.starz.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.starz.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.starz.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.starz.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.starz.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.starz.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-jiohotstar-aiostreams-v3",
+        "title": "JioHotstar",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.jiohotstar.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.jiohotstar.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.jiohotstar.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.jiohotstar.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.jiohotstar.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.jiohotstar.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.jiohotstar.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.jiohotstar.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.jiohotstar.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.jiohotstar.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.jiohotstar.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.jiohotstar.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-zee5-aiostreams-v3",
+        "title": "Zee5",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.zee5.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.zee5.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.zee5.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.zee5.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.zee5.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.zee5.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.zee5.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.zee5.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.zee5.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.zee5.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.zee5.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.zee5.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-sony-liv-aiostreams-v3",
+        "title": "Sony LIV",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.sony-liv.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.sony-liv.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.sony-liv.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.sony-liv.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.sony-liv.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.sony-liv.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.sony-liv.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.sony-liv.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.sony-liv.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.sony-liv.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.sony-liv.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.sony-liv.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-hayu-aiostreams-v3",
+        "title": "Hayu",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hayu.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hayu.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hayu.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hayu.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hayu.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hayu.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hayu.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hayu.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hayu.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hayu.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hayu.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hayu.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "folder-fix2-hidive-aiostreams-v3",
+        "title": "HIDIVE",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hidive.new"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hidive.new"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hidive.popular"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hidive.popular"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hidive.top-rated"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "provider": "addon",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hidive.top-rated"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "🎬",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hidive.new"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hidive.new"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hidive.popular"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hidive.popular"
+          },
+          {
+            "type": "movie",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.movie.streaming.hidive.top-rated"
+          },
+          {
+            "type": "series",
+            "addonId": "aiostreamsfortheweebsstable.midnightignite.me.e977eaea-191",
+            "catalogId": "686e3b0.tmdb.discover.series.streaming.hidive.top-rated"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      }
+    ],
+    "pinToTop": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "backdropImageUrl": "",
+    "focusGlowEnabled": true
+  }
+]
